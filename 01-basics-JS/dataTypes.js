@@ -37,3 +37,28 @@ console.log(typeof bigNum)
 console.log(typeof id)
 console.log(typeof HerosArr) // this is array but it JS it return as Object
 console.log(Array.isArray(HerosArr));  // This will return true : To specifically check whether a variable is an array
+
+
+// stack(primitive) and heap(Non-primitve)
+
+// stack(primitive)
+let firstName = "yadav"
+let Title = firstName
+Title = "Boss"
+
+console.log(firstName)
+console.log(Title);
+
+// Heap
+
+let student1 = {
+    name:"Dilkhush",
+    Age:24
+}
+
+let student2 = student1;
+
+student2.name = "Deepak"
+
+console.log(student1)
+console.log(student2)  // In heap student2 references the values of student1
