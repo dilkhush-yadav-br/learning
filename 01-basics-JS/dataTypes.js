@@ -43,7 +43,7 @@ console.log(Array.isArray(HerosArr));  // This will return true : To specificall
 
 // stack(primitive)
 let firstName = "yadav"
-let Title = firstName
+let Title = firstName // here Title makes copies of firstName so any changes to Title doesn't affect the firstName
 Title = "Boss"
 
 console.log(firstName)
