@@ -36,10 +36,6 @@ const {No_of_GFs:GFs} = nestObj
 console.log("de-structured objects ",GFs);
 
 
-
-
-
-
 // adding of object:assign/spread
 // assign
 const obj1 = {1: "a", 2: "b"}
